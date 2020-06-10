@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: lightgoldenrodyellow;
+}    
+h3{
+    text-align: center;
+    color: green;
+    font-size: 2.5em;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+p{
+    font-size: 1.5em;
+}
+
+.otvet{
+    font-size: 0.5em;
+}
+
+.form > input {
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 8px black;
+    font-size: 1em;
+    color: yellow;
+}
+
+.form > input {
+    margin-bottom: 10px;
+}
+
+.form > input {
+    width: 95%;
+}
+
+.form>.button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form > input, .button1>button {
+    margin-right: 8px;
+    padding: 8px;
+    cursor: pointer;
+    background: none;
+    border: 2px solid black;
+    font-size: 1em;;
+    color: green;
+}
